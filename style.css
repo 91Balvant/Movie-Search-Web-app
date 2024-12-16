@@ -1,0 +1,57 @@
+.navbar-brand img{
+ height: 50px;
+ margin-top: -28px;
+}
+.container-fluid .navbar-brand{
+    font-family: "Saira", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    background: linear-gradient(to right ,#FED271 , #FE6470  ,#1B4D66 );
+    background-clip: text;
+    color: transparent;
+}
+.card {
+    width: 13rem;
+}
+.nav-link{
+    color: #274F67;
+}
+.main{
+display: flex;
+flex-wrap: wrap;
+
+gap: 10px;
+padding: 30px 10px;
+}
+.footer{
+    font-size: 1.1rem;
+    padding: 10px 0px;
+   background-color: #1B4D66; 
+   color: white;
+}
+.input {
+    height: 45px;
+    width: 200px; 
+    transition: width 0.3s ease-in-out; 
+}
+
+.input:focus {
+    width: 300px; 
+}
+@media screen and (max-width:390px) {
+    .main{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+       display: flex;
+       flex-direction: column;
+       padding: 0px 50px;
+       
+
+    }
+    .card{
+        width: 100%;
+        
+
+    }
+}
