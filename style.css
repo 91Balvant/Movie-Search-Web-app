@@ -12,6 +12,7 @@
 }
 .card {
     width: 13rem;
+    align-self: start;
 }
 .nav-link{
     color: #274F67;
